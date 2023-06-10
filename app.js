@@ -1,6 +1,8 @@
-import express from 'express';
-// const express = require('express')
+import express from 'express'
+import HelloController from "./controllers/hello-controller.js"
+import UserController from "./users/users-controller.js"
 const app = express()
-app.get('/hello', (req, res) => {res.send('Life is good!')})
-app.get('/', (req, res) => {res.send('Welcome to Full Stack Development!')})
+app.use(express.json());
+HelloController(app)
+UserController(app)
 app.listen(4000)
