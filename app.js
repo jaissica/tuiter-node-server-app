@@ -18,7 +18,8 @@ app.use(
 app.use(
     cors({
       credentials: true,
-     origin : "https://tuiter-node-server-app-sdjx.onrender.com",
+     origin : "https://a5--shiny-sable-82f764.netlify.app",
+
     })
    );
    
