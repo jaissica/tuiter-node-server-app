@@ -7,7 +7,6 @@ import AuthController from "./users/auth-controller.js";
 import cors from 'cors'
 const app = express();
 
-
 app.use(
     session({
       secret: "any string",
@@ -29,5 +28,6 @@ TuitsController(app);
 HelloController(app);
 UserController(app);
 AuthController(app);
+
 
 app.listen(port);
