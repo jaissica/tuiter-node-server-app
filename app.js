@@ -18,7 +18,7 @@ app.use(
 app.use(
     cors({
       credentials: true,
-     origin : "http://localhost:3000",
+     origin : "https://tuiter-node-server-app-sdjx.onrender.com",
     })
    );
    
