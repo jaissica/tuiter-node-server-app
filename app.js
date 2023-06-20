@@ -11,7 +11,8 @@ const app = express();
 import mongoose from "mongoose";
 
 //const CONNECTION_STRING = "mongodb+srv://dhyeysavaliya2000:dhyey123@cluster0.exksxhm.mongodb.net/users?retryWrites=true&w=majority" || 'mongodb://127.0.0.1:27017/tuiter'; 
-const CONNECTION_STRING = "mongodb+srv://umangthakuremail:Mongo1511@cluster0.ghe9flu.mongodb.net/tuiter?retryWrites=true&w=majority" || 'mongodb://127.0.0.1:27017/tuiter'; 
+// const CONNECTION_STRING = "mongodb+srv://umangthakuremail:Mongo1511@cluster0.ghe9flu.mongodb.net/tuiter?retryWrites=true&w=majority" || 'mongodb://127.0.0.1:27017/tuiter'; 
+const CONNECTION_STRING = "mongodb+srv://jaissica:Wisdommart_01##@cluster0.pinshqk.mongodb.net/tuiter?retryWrites=true&w=majority" || 'mongodb://127.0.0.1:27017/tuiter'; 
 // const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/tuiter'; 
 
 console.log(process.env.DB_CONNECTION_STRING);
@@ -35,7 +36,7 @@ app.use(
     cors({
       credentials: true,
     // origin : "http://localhost:3000",
-    origin: "https://fastidious-dragon-93ae89.netlify.app"
+    origin: "https://steady-lolly-1c505f.netlify.app"
     })
    );
    
